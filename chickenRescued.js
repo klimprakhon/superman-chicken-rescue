@@ -1,7 +1,7 @@
 // Superman's Chicken Rescue
 
-const chickenAndRoof = [5, 5];
-const chickenPosition = [2, 5, 10, 12, 15];
+// const chickenAndRoof = [5, 5];
+// const chickenPosition = [2, 5, 10, 12, 15];
 
 function chickenRescued(chickenAndRoof, chickenPosition) {
   if (chickenPosition.length > chickenAndRoof[0]) {
@@ -36,6 +36,6 @@ function chickenRescued(chickenAndRoof, chickenPosition) {
   return rescuedChicken;
 }
 
-console.log(chickenRescued(chickenAndRoof, chickenPosition));
+// console.log(chickenRescued(chickenAndRoof, chickenPosition));
 
 module.exports = chickenRescued;
